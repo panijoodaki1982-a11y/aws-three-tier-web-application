@@ -13,6 +13,10 @@ The project follows a three-tier architecture:
 1. **Presentation Tier** – Web interface accessible through a browser.
 2. **Application Tier** – Python Flask application running on Amazon EC2.
 3. **Database Tier** – Amazon RDS database used to store application data.
+### Architecture Diagram
+
+![AWS Three-Tier Architecture](aws-three-tier-architecture.png)
+
 
 ## AWS Services and Technologies Used
 
