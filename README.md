@@ -105,3 +105,16 @@ Future versions of this project can include:
 ## Project Status
 
 Hands-on AWS cloud project completed as part of my AWS learning and cloud engineering portfolio.
+
+## Project Files
+
+- `app.py` – Python Flask web application and RDS database connection.
+- `requirements.txt` – Python dependencies required to run the application.
+- `schema.sql` – SQL script for creating the database and sample table.
+- `.env.example` – Example environment variables for database configuration.
+- `.gitignore` – Prevents sensitive credentials and temporary files from being committed.
+- `aws-three-tier-architecture.png` – Architecture diagram of the AWS environment.
+
+## Security
+
+Database credentials are not stored in the source code. Environment variables are used for database configuration, and the `.env` file is excluded from Git using `.gitignore`.
